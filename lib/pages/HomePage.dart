@@ -18,12 +18,18 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
+      // Top header
       appBar: AppBar(
+
+        // Top header tekst
         title: Text('String Manipulation'),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
+
+          // Tekst input felt
           TextField(
             decoration: InputDecoration(
               border: OutlineInputBorder(),
